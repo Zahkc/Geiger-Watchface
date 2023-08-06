@@ -1,4 +1,4 @@
-# project  configured on Sun Aug  6 23:30:46 2023 by
+# project  configured on Mon Aug  7 00:05:24 2023 by
 # waf 1.7.11 (abi 98, python 20712f0 on linux2)
 # using /home/zahkc/.pebble-sdk/SDKs/current/sdk-core/pebble/waf configure
 #
@@ -17,30 +17,8 @@ Checking for program node,nodejs
 /usr/bin/node
 find program=['node', 'nodejs'] paths=['/home/zahkc/Documents/Pebble/pebble-dev/pebble-sdk-4.6-rc2-linux64/arm-cs-tools/bin', '/home/zahkc/Documents/Pebble/pebble-dev/pebble-sdk-4.6-rc2-linux64/bin', '/home/zahkc/.local/bin', '/home/zahkc/.local/bin/lvim', '/home/zahkc/Documents/Pebble/pebble-dev/pebble-sdk-4.6-rc2-linux64/bin', '/home/zahkc/gems/bin', '/home/zahkc/gems/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/local/games', '/usr/games', '/snap/bin', '/home/zahkc/.dotnet', '/home/zahkc/.dotnet/tools'] var='NODE' -> '/usr/bin/node'
 ----------------------------------------
-Found Pebble SDK for emery in:
-/home/zahkc/.pebble-sdk/SDKs/current/sdk-core/pebble/emery
-----------------------------------------
-Checking for program gcc,cc
-arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths='' var='CC' -> 'arm-none-eabi-gcc'
-----------------------------------------
-Checking for program ar
-arm-none-eabi-ar
-find program=['ar'] paths='' var='AR' -> 'arm-none-eabi-ar'
-----------------------------------------
 Found Pebble SDK for diorite in:
 /home/zahkc/.pebble-sdk/SDKs/current/sdk-core/pebble/diorite
-----------------------------------------
-Checking for program gcc,cc
-arm-none-eabi-gcc
-find program=['gcc', 'cc'] paths='' var='CC' -> 'arm-none-eabi-gcc'
-----------------------------------------
-Checking for program ar
-arm-none-eabi-ar
-find program=['ar'] paths='' var='AR' -> 'arm-none-eabi-ar'
-----------------------------------------
-Found Pebble SDK for chalk in:
-/home/zahkc/.pebble-sdk/SDKs/current/sdk-core/pebble/chalk
 ----------------------------------------
 Checking for program gcc,cc
 arm-none-eabi-gcc

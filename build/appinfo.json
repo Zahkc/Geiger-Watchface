@@ -1,7 +1,12 @@
 {
-    "versionLabel": "1.0", 
+    "targetPlatforms": [
+        "basalt", 
+        "diorite"
+    ], 
     "projectType": "rocky", 
-    "name": "Geiger Counter", 
+    "watchapp": {
+        "watchface": true
+    }, 
     "messageKeys": {
         "ControlKeyResetRequest": 1, 
         "ControlKeyUnsupportedError": 4, 
@@ -10,26 +15,25 @@
     }, 
     "companyName": "Zahkc", 
     "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "longName": "geiger", 
+    "shortName": "geiger", 
+    "name": "Geiger Counter", 
     "sdkVersion": "3", 
-    "capabilities": [], 
+    "displayName": "geiger", 
+    "uuid": "a426b361-f97e-4934-8581-4e1cb299b74a", 
     "appKeys": {
         "ControlKeyResetRequest": 1, 
         "ControlKeyUnsupportedError": 4, 
         "ControlKeyChunk": 3, 
         "ControlKeyResetComplete": 2
     }, 
-    "watchapp": {
-        "watchface": true
-    }, 
-    "longName": "geiger", 
-    "displayName": "geiger", 
-    "shortName": "geiger", 
+    "capabilities": [], 
     "main": {
         "rockyjs": "src/rocky/index.js", 
         "pkjs": "src/pkjs/index.js"
     }, 
     "resources": {
         "media": []
-    }, 
-    "uuid": "a426b361-f97e-4934-8581-4e1cb299b74a"
+    }
 }

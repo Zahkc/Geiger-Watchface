@@ -146,7 +146,7 @@ rocky.on('draw', function(event) {
   );
   ctx.stroke();
 
-  var minDeg = Math.abs((360/12 * (parseInt(timeData.hr)%12)) - 90);
+  var minDeg = (360/12 * (parseInt(timeData.hr)%12)) - 90;
   ctx.strokeStyle = 'white';
   ctx.beginPath();
   ctx.moveTo(1.25 * ctx.canvas.clientWidth/10, 8.55 * ctx.canvas.clientHeight/10);
