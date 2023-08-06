@@ -1,0 +1,25 @@
+{
+  "name": "Geiger Counter",
+  "author": "Zahkc",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": false,
+  "dependencies": {},
+  "pebble": {
+    "main": {
+      "rockyjs": "src/rocky/index.js",
+      "pkjs": "src/pkjs/index.js"
+    },
+    "displayName": "geiger",
+    "uuid": "a426b361-f97e-4934-8581-4e1cb299b74a",
+    "projectType": "rocky",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
